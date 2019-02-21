@@ -1,0 +1,48 @@
+1: Check Git Version
+git --version
+
+2: Creates a new local git repository
+   // Create a folder for your new local repository
+git init
+
+3: Add remote repository to local repository
+git remote add origin https://github.com/ankurinfoniti/gitpractice.git
+
+4: check added remote repository to local repository and remove it
+   // Check all remote repository
+git remote -v 
+   // Remove remote repository
+git remote remove origin
+
+5: Check Git Status
+git status
+
+6: Add file to local repository
+git add commandlist.txt
+git add --all
+git add .
+
+7: Removing a file from staging
+git rm --cached gitcommandlist.txt
+
+8: .gitignore file
+It is used to ignore all file from staging to github
+
+9: Configure user information for all local repositories
+git config --global user.name "ankurinfoniti"
+git config --global user.email "ankur.infoniti@gmail.com"
+
+// Make user and email for current repository
+git config user.name "ankurinfoniti"
+git config user.email "ankur.infoniti@gmail.com"
+
+10: Commit to git 
+git commit -m "Your Message"
+
+11: Git Log details(shows how many times committed with log message)
+git log
+
+12: Uploads all local branch commits to GitHub
+git push -u origin master
+
+// then it ask for username and password for ur github
