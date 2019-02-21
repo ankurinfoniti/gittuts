@@ -46,3 +46,39 @@ git log
 git push -u origin master
 
 // then it ask for username and password for ur github
+
+13: Branch in Git
+// show all branches in the current repository
+git branch
+
+// Create a new branch
+git branch branchname
+
+// Switches to the specified branch and updates the working directory
+git checkout branchname
+
+// Create a new branch and switches to it
+git checkout -b newbranch
+
+14: Merge to branches 
+// first select a branch using checkout commandlist
+git merge branchnametomerge
+
+// then push on the branch
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
