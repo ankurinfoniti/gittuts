@@ -63,9 +63,10 @@ git checkout -b newbranch
 14: Merge to branches 
 // first select a branch using checkout commandlist
 git merge branchnametomerge
-
 // then push on the branch
 
+15: Clone from GitHub
+git clone https://github.com/ankurinfoniti/gittuts.git
 
 
 
