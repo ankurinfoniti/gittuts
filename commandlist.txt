@@ -68,10 +68,12 @@ git merge branchnametomerge
 15: Clone from GitHub
 git clone https://github.com/ankurinfoniti/gittuts.git
 
-16: Show file difference
+16: Shows file differences not yet staged
 git diff
 
+
 18: Test Branch Merge
+
 
 
 
