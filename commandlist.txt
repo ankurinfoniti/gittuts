@@ -68,10 +68,11 @@ git merge branchnametomerge
 15: Clone from GitHub
 git clone https://github.com/ankurinfoniti/gittuts.git
 
-16: Show file difference
+16: Shows file differences not yet staged
 git diff
 
-
+17: Unstages the file, but preserve its contents
+git reset filename
 
 
 
